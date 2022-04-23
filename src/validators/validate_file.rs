@@ -42,7 +42,7 @@ mod tests {
     const IMAGES_PATH: &str = "res/image";
     const VIDEO_PATH: &str = "res/video";
     const OTHER_PATH: &str = "res/other_extension";
-    const MODIFIED_EXTENSION: &str = "res/image_with_modified_extension"; // .csv file don't have header
+    const MODIFIED_EXTENSION: &str = "res/image_with_modified_extension"; 
 
 
     #[test]
@@ -60,8 +60,6 @@ mod tests {
             assert_eq!(validate_file(&image_path.unwrap().path().to_str().unwrap().to_string(), false).unwrap(), Some("image"));
         }
     }
-
-
 
     #[test]
     fn corrects_video() {
@@ -94,7 +92,6 @@ mod tests {
             assert_eq!(validate_file(&image_path.unwrap().path().to_str().unwrap().to_string(), false).unwrap(), Some("image"));
         }
     }
-
 
     #[test]
     fn inexistant_file() {

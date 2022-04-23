@@ -1,15 +1,14 @@
 //use std::ptr::eq;
 use regex::Regex;
 
+// Function that allow to verify a URL
+// whitelist : slice that allow to specify authorised top domain name. If None is specified, no whitelist is used.
 pub fn validate_url(url: &str, whitelist: Option<&[&str]>) -> bool {
     let regex_top_domain = Regex::new(r"^\.[a-zA-Z.]{1,}[a-zA-Z]$").unwrap();
     let regex_url = Regex::new(r"^([a-z0-9A-Z]*://)?[-.a-z0-9A-Z]{3,}\.[a-zA-Z.]{1,}[a-zA-Z]$").unwrap();
     if let Some(v) = whitelist {
-        if v.iter().any(|top_domain_name| !regex_top_domain.is_match(top_domain_name)) {
-            return false;
-        }
-        // if our top domain don't match with one of the whitelist, we leave.
-        if v.iter().all(|top_domain_name| !url.ends_with(top_domain_name)) {
+        if v.iter().any(|top_domain_name| !regex_top_domain.is_match(top_domain_name)) // check if topdomain name in whitelist are all correct
+        || v.iter().all(|top_domain_name| !url.ends_with(top_domain_name))  { // check if the url finish with one of the whitelisted topdomain
             return false;
         }
     }

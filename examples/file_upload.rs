@@ -19,7 +19,7 @@ lazy_static! {
 }
 
 // Function that upload a MediaFile with k uuid.
-// Return : True if the upload is successuful. False if the file already exist.
+// Return : True if the upload is successuful. False if the file already exist, and the content is not uploaded.
 fn upload_file(uuid: &String, filepath: &String, media_type: String) -> bool {
     let mut map = HASHMAP.lock().unwrap();
     match map.get(uuid) {
@@ -103,7 +103,7 @@ fn file_verify_handler() {
     }
 }
 
-// Function that return the URL of a file. No verification is done on the file. Refer to file_verify_handler()
+// Function that return the URL of a file if it had been stored. No further verification is done on the file. Refer to file_verify_handler()
 fn get_url_handler() {
     let uuid_input = input::<String>().msg("Please enter the UUID to get : ").get();
     if let Some(media_file) = retrieve_with_uuid(&uuid_input) {
