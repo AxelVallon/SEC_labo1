@@ -1,0 +1,1 @@
+{"rustc":2710040094460752720,"features":"[\"alloc\", \"default\", \"std\"]","target":11215162118067233476,"profile":3735503092003429423,"path":888311512753528009,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug\\.fingerprint\\infer-2020043c715c608a\\dep-lib-infer"}}],"rustflags":[],"metadata":869830964506664506,"config":2202906307356721367,"compile_kind":0}

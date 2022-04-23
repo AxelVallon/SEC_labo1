@@ -1,0 +1,11 @@
+C:\Users\axelv\projets\Semestre6\CAA\lab01_2022_input_validation\target\debug\deps\read_input-ba6c695f1928fb83.rmeta: C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\lib.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\core.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\prelude.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\shortcut.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\test_generators.rs
+
+C:\Users\axelv\projets\Semestre6\CAA\lab01_2022_input_validation\target\debug\deps\libread_input-ba6c695f1928fb83.rlib: C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\lib.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\core.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\prelude.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\shortcut.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\test_generators.rs
+
+C:\Users\axelv\projets\Semestre6\CAA\lab01_2022_input_validation\target\debug\deps\read_input-ba6c695f1928fb83.d: C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\lib.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\core.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\prelude.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\shortcut.rs C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\test_generators.rs
+
+C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\lib.rs:
+C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\core.rs:
+C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\prelude.rs:
+C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\shortcut.rs:
+C:\Users\axelv\.cargo\registry\src\github.com-1ecc6299db9ec823\read_input-0.8.6\src\test_generators.rs:

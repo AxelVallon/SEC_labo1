@@ -1,0 +1,16 @@
+[package]
+name = "lab01_2022_input_validation"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+read_input = "0.8.6"
+lazy_static = "1.4.0"
+regex = "1"
+infer = "0.7.0"
+
+[dependencies.uuid]
+version = "1.0.0"
+features = ["v5"]
